@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: TASA;
+}
+@font-face {
+    font-family: Bebas;
+    src: url(BebasNeue-Regular.ttf);
+}
+@font-face {
+    font-family: TASA;
+    src: url(TASAOrbiter-VariableFont_wght.ttf);
+}
+ul{
+    display: flex;
+    gap: 100px;
+    justify-content: center;
+    margin-top: 20px;
+}
+.menu{
+    height: 70vh;
+    width: 100%;
+    background-color: silver;
+}
+.words{
+    height: 15vh;
+    width: 100%;
+    text-align: center;
+    font-family: TASA Oribiter;
+}
+input{
+    background-color: hsl(115, 15%, 65%);
+
+}
+.btn{
+    height: 10vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+.card{
+    height: 45vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+.cok{
+    height: 60vh;
+    color: hsl(99, 10%, 46%);
+    width: 500px;
+    font-size: 40px;
+}
+.cok h1{
+    border-bottom: 2px solid #8f9b8c;
+}
+.cock{
+    color: hwb(100 20% 75%);
+}
+.team{
+    height: 80vh;
+    width: 100%;
+    background-color: lab(67.83% -5.65 5.61);
+}
+.event{
+    height: 110vh;
+    width: 100%;
+    background-color: silver;
+text-align: center;
+}
+.event h1{
+    height: 10vh;
+    padding: 12px;
+    width: 100%;
+}
+.ima{
+    height: 45vh;
+    width: 45%;
+}
+.holder{
+    height: 50vh;
+    width: 100%;
+    display: flex;
+    gap: 50px;
+    align-items: center;
+    justify-content: center;
+}
+.ima img{
+    height: 45vh;
+    width: 100%;
+    object-fit: cover;
+}
+footer{
+    height: 130px;
+    width: 100%;
+    background-color: hsl(115, 15%, 65%);
+    display: flex;
+}
+nav{
+    height: 130px;
+    width: 80%;
+}
+input{
+    border: 1px solid gray;
+    padding: 12px;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+.news{
+    height: 130px;
+    width: 20%;
+}
+.news p{
+    margin-top: 10px;
+}

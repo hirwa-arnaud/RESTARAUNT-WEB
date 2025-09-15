@@ -1,0 +1,103 @@
+li{
+    list-style: none;  
+    font-family: Bebas;
+}
+header{
+    height: 80px;
+    width: 100%;
+    background-color: silver;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.are{
+    height: 30vh;
+    width: 100%;
+    background-color: silver;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.peaop{
+    height: 15vh;
+        width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.text{
+    height: 25vh;
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.text p{
+    text-align: center;
+}
+.gallery{
+    background-color: silver;
+    height: 40vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+.img{
+    height: 35vh;
+    width: 300px;
+}
+.img img{
+    height: 35vh;
+    width: 300px;
+}
+.btn button{
+    height: 8vh;
+    width: 150px;
+    border-radius: 10px;
+    border: 1px solid gray;
+    background-color: silver;
+}
+.box{
+    height: 43vh;
+    width: 230px;
+    text-align: center;
+}
+.box img{
+    height: 35vh;
+    width: 230px;
+    object-fit: cover;
+    background-size: cover;
+}
+.box img:hover{
+    padding: 12px;
+    cursor: pointer;
+}
+.drink{
+    height: 80vh;
+    width: 100%;
+    background-color: silver;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+.cok img{
+    height: 60vh;
+    width: 500px;
+    object-fit: cover;
+}
+.pers{
+    height: 43vh;
+    width: 230px;
+    text-align: center;
+}
+.pers img{
+    height: 50vh;
+    width: 230px;
+    object-fit: cover;
+    background-size: cover;
+}
