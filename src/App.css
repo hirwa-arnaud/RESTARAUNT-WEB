@@ -49,6 +49,13 @@ input{
     justify-content: center;
     gap: 20px;
 }
+.coc img{
+    margin: 5px;
+}
+.coc img:hover{
+    cursor: pointer;
+    
+}
 .cok{
     height: 60vh;
     color: hsl(99, 10%, 46%);

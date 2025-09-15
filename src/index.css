@@ -36,12 +36,14 @@ header{
 }
 .text p{
     text-align: center;
+    
 }
 .gallery{
     background-color: silver;
     height: 40vh;
     width: 100%;
     display: flex;
+    margin-top: 10px;
     align-items: center;
     justify-content: center;
     gap: 20px;
@@ -85,9 +87,9 @@ header{
     align-items: center;
     gap: 30px;
 }
-.cok img{
+.img{
     height: 60vh;
-    width: 500px;
+    width: 450px;
     object-fit: cover;
 }
 .pers{
