@@ -1,7 +1,7 @@
 import { useState } from "react";
 
 function Drink() {
-  const images = ["wine.png", "wine.webp", "adrian2.png"];
+  const images = ["wine.png", "wine.webp", "beer.webp"];
   const [currentIndex, setCurrentIndex] = useState(0);
 
   const handleNext = () => {
